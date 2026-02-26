@@ -1,0 +1,10 @@
+[kubernetes:childrens]
+kubernetes_master
+kubernetes_worker
+
+[kubernetes_master]
+nproshunin-ubuntu-1 ansible_host=192.168.101.197
+
+[kubernetes_worker]
+nproshunin-ubuntu-2 ansible_host=192.168.101.196
+nproshunin-ubuntu-3 ansible_host=192.168.101.195
